@@ -7,9 +7,7 @@ import networkx as nx
 import osmnx as ox
 import pandas as pd
 from tqdm import tqdm
-
-# Import query_lihar properly
-from scripts.query_engine import query_lihar
+from query_engine import query_lihar
 
 
 def sample_queries(G, n=1000):
