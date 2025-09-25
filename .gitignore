@@ -1,7 +1,9 @@
 venv/
+data/
 __pycache__/
 *.pyc
 *.pkl
+*.graphml
 .DS_Store
 .env
 data/
